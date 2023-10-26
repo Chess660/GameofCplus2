@@ -12,7 +12,7 @@ class janken{
     private:
         std::string getUserChoice();
         std::string getComputerChoice();
-        void determineWinner(const std::string& userChoice, const std::string& computerChoice);
+        bool determineWinner(const std::string& userChoice, const std::string& computerChoice);
 };
 
 #endif
